@@ -4,6 +4,7 @@ function onReady(){
   console.log(
     'in onReady function'
   );
+  $('#parentDivOne').on('click', bonusCalculator )
 }
 
 const employees = [
